@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de IMC</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <h1>Calculadora de IMC</h1>
+  <button type="button" id="consultaPrivada">Realizar Consulta Privada</button>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" required>
+    <br>
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" required>
+    <br>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" required>
+    <br>
+    <label for="altura">Altura (cm):</label>
+    <input type="number" id="altura" required>
+    <br>
+    <button type="button" id="calcular">Calcular IMC</button>
+  </form>
+  <div id="resultado"></div>
+  <div id="datos-persona"></div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

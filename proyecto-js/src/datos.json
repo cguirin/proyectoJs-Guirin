@@ -1,0 +1,20 @@
+{
+  "personas": [
+    {
+      "id": "3877",
+      "nombre": "gabriel",
+      "apellido": "de la Torre",
+      "peso": 86,
+      "altura": 173,
+      "imc": 28.7
+    },
+    {
+      "id": "2dcb",
+      "nombre": "maria",
+      "apellido": "gonzalez",
+      "peso": 100,
+      "altura": 172,
+      "imc": 33.8
+    }
+  ]
+}

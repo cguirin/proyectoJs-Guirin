@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.65), rgba(5, 7, 12, 0.65)), url(../public/imgFondo.jpg);
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    /* Ajusté el margen superior para notebook y tablet */
+    border: 2px solid white;
+    /* Agregue borde blanco al formulario */
+    border-radius: 10px;
+    /* Redondie los bordes del formulario */
+    padding: 20px;
+}
+
+label,
+button {
+    margin: 5px 0;
+    color: white;/
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: black;
+}
+
+#resultado,
+#datos-persona {
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="number"] {
+    width: 100%;
+}
+
+input[type="text"] {
+    border: 1px solid rgb(9, 199, 3);
+    /* Agregue color alimonado al borde de los input*/
+    border-radius: 5px;
+    /* Redondie los bordes de los campos de entrada */
+}
+
+/* Agregue Media queries para los distintos dispositivos */
+@media (max-width: 768px) {
+
+    input[type="text"],
+    input[type="number"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    form {
+        margin-top: 50px;
+        /* Aumenté el margen superior del formulario para dispositivos más pequeños */
+    }
+}
